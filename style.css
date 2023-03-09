@@ -1,0 +1,37 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.claseTitulo{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 40px 15px 40px 15px;
+}
+
+
+.claseDiv1 {
+    border: 2px gray;
+    /*      top - btt - lft - rgt */
+    padding: 15px 15px 10px 10px;
+    margin: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.claseBody1{
+    background-color    : lightgreen;
+}
+
+@media (max-width: 640){
+    body{
+        background-color: lightcoral;
+    }
+    
+}
